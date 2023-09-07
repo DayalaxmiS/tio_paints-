@@ -1,0 +1,174 @@
+.contact {
+  background: #e2eefa;
+  color: #55616e;
+  padding: 10px 20px;
+  font-size: 15px;
+  display: flex;
+}
+.contact div:nth-child(1) {
+  display: flex;
+  width: 50%;
+  justify-content: flex-start;
+  align-items: center;
+}
+.contact div:nth-child(2) {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+  align-items: center;
+}
+.contact div a {
+  color: #55616e;
+  font-size: 20px;
+  margin: 10px;
+}
+.contact div a:hover {
+  color: #3c454e;
+}
+.contact div h {
+  font-size: 25px;
+  color: #9ba3ac;
+  vertical-align: middle;
+}
+.contact div:nth-child(2) a:nth-child(1) {
+  font-size: 15px;
+  text-decoration: none;
+}
+.navbar {
+  background: #fff;
+  box-shadow: 0 10px 20px 2px rgba(60, 58, 58, 0.5);
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+  z-index: 9;
+}
+.navbar.fixed {
+  background: #01326f;
+  box-shadow: none;
+  position: sticky;
+  top: 0;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 20px 2px rgba(60, 58, 58, 0.5);
+}
+.navbar.fixed .cat p,
+.navbar.fixed .subcat p,
+.navbar.fixed .innersub p {
+  border: 1px dotted #fff;
+  color: rgb(109, 109, 110);
+}
+.navbar.fixed .cat p:hover,
+.navbar.fixed .subcat p:hover,
+.navbar.fixed .innersub p:hover {
+  color: #0d3b66;
+  border: 1px dotted #0d3b66;
+}
+.navbar.fixed .logo a {
+  color: #fff;
+}
+.navbar.fixed nav p {
+  color: #fff;
+}
+.navbar.fixed nav p:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+.logo {
+  margin: 10px 10px 10px 0;
+  display: flex;
+  align-items: center;
+}
+.logo span a {
+  color: #0d3b66;
+  margin: 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  position: relative;
+}
+nav p {
+  color: #0d3b66;
+  box-sizing: border-box;
+  margin: 0;
+  transition: all 0.3s ease;
+  height: 100%;
+  cursor: pointer;
+}
+#nav_item {
+  padding: 21px 7px;
+}
+nav a {
+  text-decoration: none;
+}
+nav p:hover {
+  color: #fff;
+  background: #0d3b66;
+}
+.dropdown {
+  border-radius: 5px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  transition: all 0.3s ease;
+  background: #fff;
+  display: flex;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  align-items: center;
+  z-index: 9;
+}
+.dropup {
+  display: none;
+}
+.null {
+  display: none;
+}
+.cat,
+.subcat,
+.innersub {
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  margin: 8px;
+  width: 100%;
+  min-width: 150px;
+  height: 170px;
+}
+hr {
+  margin: 5px 0;
+  border-bottom: 1px solid #0a2a48;
+}
+.cat p,
+.subcat p,
+.innersub p {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(109, 109, 110);
+  cursor: pointer;
+  border: 1px dotted #fff;
+  transition: all 0.3s ease;
+}
+.subcat p,
+.innersub p {
+  cursor: default;
+}
+.cat p:hover,
+.subcat p:hover,
+.innersub p:hover {
+  color: #0d3b66;
+  border-radius: 15px 5px;
+  background: #e1ebee;
+  border: 1px dotted #0d3b66;
+}

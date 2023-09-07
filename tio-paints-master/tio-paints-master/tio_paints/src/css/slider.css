@@ -1,0 +1,26 @@
+.carousel img {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.carousel a .carousel-control-prev-icon {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+}
+.carousel a .carousel-control-next-icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+}
+.carousel .carousel-indicators {
+  position: absolute;
+  bottom: 30px;
+}
+.carousel h3 {
+  position: relative;
+  bottom: 20px;
+}
